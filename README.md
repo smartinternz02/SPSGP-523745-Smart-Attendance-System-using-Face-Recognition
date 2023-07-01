@@ -11,4 +11,4 @@ Face Recognition:** The system uses advanced face recognition algorithms to iden
 
 **Database Management:** The system maintains a secure database to store face templates and attendance records. It ensures data privacy and enables easy retrieval of attendance data for reporting and analysis. The Database format used in the '.csv' format file.
 
-**User-friendly Interface: **The system provides an intuitive and user-friendly interface for administrators and users. It allows for easy registration of individuals, monitoring of attendance, and generation of reports.
+**User-friendly Interface:** The system provides an intuitive and user-friendly interface for administrators and users. It allows for easy registration of individuals, monitoring of attendance, and generation of reports.
