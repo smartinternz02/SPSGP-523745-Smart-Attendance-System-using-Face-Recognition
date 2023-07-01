@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Take Attendance</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 10px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .webcam-feed {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .webcam-feed img {
+            max-width: 100%;
+            border: 2px solid #000;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Take Attendance</h1>
+    <a href="/" class="button">Home</a>
+    <a href="/stop_attendance" class="button">Stop Attendance</a>
+    <div class="webcam-feed">
+        <img src="{{ url_for('start_attendance') }}" alt="Webcam Stream">
+    </div>
+</body>
+</html>
